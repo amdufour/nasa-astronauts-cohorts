@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Interactive Data Visualization with D3.js - Project 4</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Interactive Data Visualization with D3.js - Radial Visualization</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<link rel="stylesheet" type="text/css" href="css/modal.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
@@ -73,10 +76,19 @@
 			<div class="icons">Lightbulb icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepick" target="_blank" rel="noreferrer">Freepick</a> and <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect" target="_blank" rel="noreferrer">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noreferrer">www.flaticon.com</a></div>
 		</div>
 	</div>
+
+	<div class="unresponsive-window">
+		<div class="modal">
+			<h3><span class="emoji">&#x1F633;</span>Damn.</h3>
+			<p>This project does not look sexy on small screens (and is not meant to). Switch to a desktop screen to explore the visualization!</p>
+			<div class="close"></div>
+		</div>
+	</div>
 	
 
 	<!-- Add Scripts Here -->
-	<script src="https://d3js.org/d3.v6.min.js"></script>
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+	<script src="js/modal.js"></script>
 	<script src="js/helper.js"></script>
 	<script src="js/main.js"></script>
 </body>
